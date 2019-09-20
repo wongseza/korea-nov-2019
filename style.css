@@ -9,6 +9,11 @@
 }
 
 .row-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: auto;
     width: 100%;
 }
 
