@@ -1,4 +1,12 @@
 .container-fluid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
     height: 100vh;
     overflow: auto;
+}
+
+.row-flex {
+    width: 100%;
 }
