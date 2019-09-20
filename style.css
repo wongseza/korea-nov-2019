@@ -4,8 +4,13 @@
     flex-wrap: wrap;
     height: 100vh;
     overflow: auto;
+    color: var(--indigo);
 }
 
 .row-flex {
     width: 100%;
+}
+
+.day1 {
+    color: var(--blue);
 }
