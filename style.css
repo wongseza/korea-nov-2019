@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     height: 100vh;
     overflow: auto;
-    color: var(--indigo);
+    background-color: var(--indigo);
+    font-size: 20pt;
 }
 
 .row-flex {
@@ -12,5 +13,9 @@
 }
 
 .day1 {
-    color: var(--blue);
+    background-color: var(--blue);
+}
+
+.day5 {
+    background-color: var(--red);
 }
