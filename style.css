@@ -1,18 +1,14 @@
 table {
   width: 100vh;
   height: 100vh;
-  background-color: var(--indigo);
+  background-color: green;
   font-size: 20pt;
 }
 
-tr,td {
-  #width: 100%;
-}
-
 .d1 {
-  background-color: var(--blue);
+  background-color: blue;
 }
 
 .d5 {
-  background-color: var(--red);
+  background-color: red;
 }
