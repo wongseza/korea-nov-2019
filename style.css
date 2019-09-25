@@ -1,5 +1,6 @@
 table {
   align-items: center;
+  width: 100vh;
   height: 100vh;
   background-color: var(--indigo);
   font-size: 20pt;
