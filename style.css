@@ -1,14 +1,11 @@
-.container-fluid {
-  display: flex;
+table {
   align-items: center;
   height: 100vh;
-  overflow: auto;
   background-color: var(--indigo);
   font-size: 20pt;
 }
 
-.row {
-  display: flex;
+tr,td {
   align-items: center;
   height: 100%;
   overflow: auto;
