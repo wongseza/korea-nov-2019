@@ -1,25 +1,28 @@
 .container-fluid {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100vh;
-    overflow: auto;
-    background-color: var(--indigo);
-    font-size: 20pt;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--indigo);
+  font-size: 20pt;
 }
 
 .row {
-  display: table-row
+  display: table-row;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
 }
 
 .col {
-  display: table-cell
+  display: table-cell;
 }
 
 .day1 {
-    background-color: var(--blue);
+  background-color: var(--blue);
 }
 
 .day5 {
-    background-color: var(--red);
+  background-color: var(--red);
 }
