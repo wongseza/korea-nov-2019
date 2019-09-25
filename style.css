@@ -9,7 +9,6 @@
 .row {
   display: table-row;
   align-items: center;
-  flex-wrap: wrap;
   height: 100%;
   overflow: auto;
   width: 100%;
@@ -17,14 +16,15 @@
 
 .col {
   display: table-cell;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
 
-.day1 {
+.d1 {
   background-color: var(--blue);
 }
 
-.day5 {
+.d5 {
   background-color: var(--red);
 }
